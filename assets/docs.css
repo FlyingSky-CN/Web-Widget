@@ -1,0 +1,30 @@
+/**
+ * Web Widget | CSS Stylesheet
+ */
+
+.main {
+    max-width: 768px !important;
+}
+
+.title {
+    min-height: calc(100vh - 56px);
+}
+
+.title>div {
+    padding-bottom: 64px;
+}
+
+@media (min-width: 600px) {
+    .title {
+        min-height: calc(100vh - 64px);
+    }
+}
+
+.title .heading,
+.title .subheading {
+    margin: 4px;
+}
+
+.title .heading .icon {
+    font-size: 32px;
+}
