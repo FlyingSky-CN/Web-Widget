@@ -1,0 +1,58 @@
+/**
+ * Web Widget | CSS Stylesheet
+ */
+
+html,
+body {
+    margin: 0;
+}
+
+body {
+    padding: 4px;
+}
+
+.center {
+    display: block !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+.card {
+    padding: 16px;
+    min-width: 256px;
+    border-radius: 3px;
+}
+
+.round {
+    border-radius: 15px;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: .02em;
+}
+
+.subheading {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: .04em;
+}
+
+.display-2 {
+    font-weight: 400;
+    font-size: 45px;
+    letter-spacing: 0;
+}
+
+.display-3 {
+    font-weight: 400;
+    font-size: 56px;
+    letter-spacing: -.02em;
+}
+
+.display-4 {
+    font-weight: 300;
+    font-size: 112px;
+    letter-spacing: -.04em;
+}
