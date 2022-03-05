@@ -3,3 +3,40 @@
     background: -webkit-linear-gradient(135deg, rgb(252, 92, 125), rgb(106, 130, 251));
     background: linear-gradient(135deg, rgb(252, 92, 125), rgb(106, 130, 251));
 }
+
+.card.gradient-2 {
+    background: #5b86e5;
+    background: -webkit-linear-gradient(135deg, rgb(54, 209, 220), rgb(91, 134, 229));
+    background: linear-gradient(135deg, rgb(54, 209, 220), rgb(91, 134, 229));
+}
+
+.card.gradient-3 {
+    background: #bdc3c7;
+    background: -webkit-linear-gradient(135deg, rgb(189, 195, 199), rgb(44, 62, 80));
+    background: linear-gradient(135deg, rgb(189, 195, 199), rgb(44, 62, 80));
+
+}
+
+.card.gradient-4 {
+    background: #fc00ff;
+    background: -webkit-linear-gradient(135deg, rgb(252, 0, 255), rgb(0, 219, 222));
+    background: linear-gradient(135deg, rgb(252, 0, 255), rgb(0, 219, 222));
+}
+
+.card.gradient-5 {
+    background: #00d2ff;
+    background: -webkit-linear-gradient(135deg, rgb(0, 210, 255), rgb(58, 123, 213));
+    background: linear-gradient(135deg, rgb(0, 210, 255), rgb(58, 123, 213));
+}
+
+.card.gradient-6 {
+    background: #ff8008;
+    background: -webkit-linear-gradient(135deg, rgb(255, 128, 8), rgb(255, 200, 55));
+    background: linear-gradient(135deg, rgb(255, 128, 8), rgb(255, 200, 55));
+}
+
+.card.gradient-7 {
+    background: #02aab0;
+    background: -webkit-linear-gradient(135deg, rgb(2, 170, 176), rgb(0, 205, 172));
+    background: linear-gradient(135deg, rgb(2, 170, 176), rgb(0, 205, 172));
+}
