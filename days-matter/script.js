@@ -11,7 +11,8 @@ window.onload = () => {
         document.getElementById('card').classList.add('round');
 
     /** Card Background */
-    let gradient = (["1"].indexOf(getQueryStringByName('gradient')) >= 0) ?
+    let gradient = (['1', '2', '3', '4', '5', '6', '7'].
+        indexOf(getQueryStringByName('gradient')) >= 0) ?
         getQueryStringByName('gradient') : '1';
     document.getElementById('card').classList.add(`gradient-${gradient}`);
 
