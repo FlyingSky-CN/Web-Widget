@@ -14,5 +14,5 @@ function getQueryStringByName(name, defaultValue = '') {
     let regMatch = location.search.match(regExp);
     if (regMatch == null || regMatch.length < 1)
         return defaultValue;
-    return regMatch[1];
+    return decodeURIComponent(regMatch[1]);
 }

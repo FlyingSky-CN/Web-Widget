@@ -1,10 +1,7 @@
 .card {
     color: #fff;
-    background: #fc5c7d;
-    background: -webkit-linear-gradient(135deg, rgb(252, 92, 125), rgb(106, 130, 251));
-    background: linear-gradient(135deg, rgb(252, 92, 125), rgb(106, 130, 251));
+    background: #000;
     text-align: center;
-    transition: all .25s ease;
     max-width: 512px;
 }
 

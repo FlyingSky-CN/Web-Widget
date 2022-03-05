@@ -21,6 +21,7 @@ body {
     padding: 16px;
     min-width: 256px;
     border-radius: 3px;
+    transition: all .25s ease;
 }
 
 .round {

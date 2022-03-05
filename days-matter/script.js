@@ -10,6 +10,11 @@ window.onload = () => {
     if (getQueryStringByName('round') == 'true')
         document.getElementById('card').classList.add('round');
 
+    /** Card Background */
+    let gradient = (["1"].indexOf(getQueryStringByName('gradient')) >= 0) ?
+        getQueryStringByName('gradient') : '1';
+    document.getElementById('card').classList.add(`gradient-${gradient}`);
+
     /** Days Matter */
     let day = getQueryStringByName('day') == '' ?
         (new Date().getFullYear() + 1) + '/01/01' :
